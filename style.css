@@ -1,0 +1,532 @@
+ body {
+ 	margin: 0 auto;
+ }
+.header {
+	width: 100%;
+	height: 1080px;
+	display: block;
+	max-width: 1920px;
+	max-height: 1080px;
+}
+/* fone */
+.fone {
+	background: url(img/bg_12.jpg) no-repeat center;
+	position: absolute;
+	width: 100%;
+	height: 947px;
+	z-index: 0;
+	max-width: 1920px;
+}
+/*header*/
+.logo {
+	background: url(img/logo1.png) no-repeat center;
+	width: 300px;
+	height: 300px;
+	margin-top: -11vh;
+	margin-left:20%;
+	max-width: 1920px;
+}
+.button {
+	display: block;
+	width: 800px;
+	height:8vh;
+	margin-top: -20vh;
+	margin-left: 40%;
+	max-width: 1920px;
+
+}
+.home  {
+	display: flex;
+}
+.home a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+	margin-top: 2vh;
+	padding-left: 20px;
+	color: #A5A8A6;
+}
+.home a:hover {
+	color: #fd0054;
+}
+.motiv {
+	direction: block;
+	width: 600px;
+	height: 10vh;
+	margin-top: 20vh;
+	margin-left:41%; 
+	max-width: 1920px;
+}
+.record {
+	text-align:center;
+	font-size: 72px;
+	color: #fff;
+}
+p {
+	margin-top: -1vh;
+}
+.sport1 {
+	display: block;
+	height: 5vh;
+	width: 20%;
+	max-width: 1920px;
+	margin-left: 48%;
+	margin-top: 8vh;
+}
+.sport {
+	font-size: 30px;
+	color:#fff;
+	text-align:center;
+}
+/* osnova */
+.whatWeDo {
+	display: block;
+	width: 100%;
+	max-width: 1920px;
+	height: 800px;
+}
+.foto {
+	background: url(img/about.jpg) no-repeat center;
+	width: 540px;
+	height: 800px;
+	margin-top: -13vh;
+	margin-left:  27vh;
+}
+.text1 {
+	display: block;
+	width: 450px;
+	height: 10vh;
+	margin-top: -70vh;
+	margin-left: 90vh;
+}
+.lessons {
+ 	font-size: 50px;
+ 	text-align: center;
+ 	margin-top: -80px;
+ 	position: absolute;
+	}
+/* Первое фото */
+.tape {
+	background: url(img/tape.png) no-repeat center;
+	width: 120px;
+	height: 120px;
+	margin-left: -1vh;
+	margin-top: 4vh;
+}
+.tape1 {
+	display: block;
+	width: 40vh;
+	height: 5vh;
+	margin-top: -12vh;
+	margin-left: 13vh;
+}
+.analiz {
+	text-align:left;
+	font-size: 30px;
+}
+
+.description {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-left: 13vh;
+}
+.description1 {
+	text-align: left;
+	font-size: 20px;
+	color:#A5A8A6;
+}
+/* Второе фото */
+.dumbbells {
+	background: url(img/dumbbells.png) no-repeat center;
+	width: 120px;
+	height:120px;
+	margin-left: -1vh;
+	margin-top: 3vh;
+}
+.dumbbells1 {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-top: -11vh;
+	margin-left: 13vh;
+}
+.work {
+	text-align: left;
+	font-size:30px;
+}
+.worklist {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-left: 13vh;
+}
+.worklist1 {
+	text-align: left;
+	font-size: 20px;
+	color:#A5A8A6;
+}
+/* Третье фото*/
+.speed {
+	background: url(img/speed.png) no-repeat center;
+	width: 120px;
+	height:120px;
+	margin-left: -0.7vh;
+	margin-top: 3vh;
+}
+.speed1{
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-top: -11vh;
+	margin-left: 13vh;
+}
+.rezultat {
+	text-align: left;
+	font-size:30px;
+}
+/*Четвертое фото*/
+.years {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-left: 13vh;
+}
+.years1 {
+	text-align: left;
+	font-size: 20px;
+	color:#A5A8A6;
+}
+.figure {
+	background: url(img/figure.png) no-repeat center;
+	width: 120px;
+	height:120px;
+	margin-left: -1vh;
+	margin-top: 3vh;
+}
+.achieve {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-top: -11vh;
+	margin-left: 13vh;
+}
+.achieve1 {
+	text-align: left;
+	font-size:30px;
+}
+.figure1 {
+	display: block;
+	width: 60vh;
+	height: 5vh;
+	margin-left: 13vh;
+}
+.figure2 {
+	text-align: left;
+	font-size: 20px;
+	color:#A5A8A6;
+}
+/* Counter */
+.counter {
+	display:block;
+	width: 100%;
+	height:25vh;
+	background: linear-gradient(45deg, #fc6c02, #fd0054);
+}
+.customers {
+	display: block;
+	width: 100px;
+	height: 5vh;
+	text-align: center;
+	margin-left: 50vh;
+	margin-top:-14vh;
+}
+.happy {
+	text-align: left;
+	font-size: 40px;
+	color:#fff;
+	margin-top: 14vh;
+}
+.happyCustomers {
+	display: block;
+	width: 200px;
+	height:3vh;
+	margin-left:45vh;
+}
+.happyCustomers1 {
+	text-align: center;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.perfect {
+	display: block;
+	width: 100px;
+	height: 5vh;
+	text-align: center;
+	margin-left: 80vh;
+	margin-top:-8vh;
+}
+.bodies {
+	text-align: left;
+	font-size: 40px;
+	color:#fff;
+	margin-top: 14vh;
+}
+.perfectBodies {
+	display: block;
+	width: 200px;
+	height:3vh;
+	margin-left:77vh;
+}
+.perfectBodies1 {
+	text-align: center;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.workH {
+	display: block;
+	width: 100px;
+	height: 5vh;
+	text-align: center;
+	margin-left: 110vh;
+	margin-top:-8vh;
+}
+.hours {
+	text-align: left;
+	font-size: 40px;
+	color:#fff;
+	margin-top: 14vh;
+}
+.workHours {
+	display: block;
+	width: 200px;
+	height:3vh;
+	margin-left:108vh;
+}
+.workHours1 {
+	text-align: center;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.OurCoaches {
+	display: block;
+	width: 100;
+	max-width: 1920px;
+	height: 10vh;
+	text-align: center;;
+	font-size: 50px;
+	margin-top:10vh;
+}
+.telo {
+	width: 100%;
+	max-width:1920px;
+	height: 80vh;
+}
+/*Первый тренер */
+.telo {
+	background: url(img/trainer-12.png) no-repeat center;
+	width: 400px;
+	height: 600px;
+	margin-left: 7.5%;
+	max-width: 1920px;
+}
+.info {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin-top: -25vh;
+	margin-left: 7.5%;
+	max-width:1920px;
+	text-align: left;
+}
+.name {
+	text-align: left;
+	font-size: 40px;
+}
+.achievements {
+	display: block;
+	width: 400px;
+	height: 200px;
+	margin-left: 7.5%;
+	max-width: 1920px;
+	margin-top: -5vh;
+}
+.i1 {
+	text-align: left;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+/* Второй тренер*/
+.telo1 {
+	background: url(img/trainer-22.png) no-repeat center;
+	width: 400px;
+	height: 588px;
+	margin-left: 38.5%;
+	max-width: 1920px;
+	margin-top: -30vh;
+}
+.info1 {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin-top: -93vh;
+	margin-left: 38.5%;
+	max-width: 1920px;
+	text-align: left;
+}
+.achievements1 {
+	display: block;
+	width: 400px;
+	height: 200px;
+	margin-left: 38.5%;
+	max-width: 1920px;
+	margin-top: -5vh;
+}
+.i2 {
+	text-align: left;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.i3 {
+	text-align: left;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.achievements2 {
+	display: block;
+	width: 400px;
+	height: 200px;
+	margin-left: 38.5%;
+	max-width: 1920PX;
+	margin-top: -12vh;
+}
+/* третий тренер*/
+.telo2 {
+	background: url(img/trainer-32.png) no-repeat center;
+	width: 400px;
+	height: 588px;
+	margin-left: 70%;
+	max-width: 1920px;
+	margin-top: -36vh;
+}
+.info2 {
+	display: block;
+	width: 400px;
+	height: 100px;
+	margin-left: 70%;
+	max-width: 1920px;
+	text-align: left;
+	margin-top: -23vh;
+}
+.achievements3 {
+	display: block;
+	width: 400px;
+	height: 200px;
+	margin-left: 70%;
+	max-width: 1920px;
+	margin-top: -5vh;
+}
+.i4 {
+	text-align: left;
+	font-size: 22px;
+	color:#A5A8A6;
+}
+.buttonS {
+	width: 350px;
+	height:  10vh;
+	margin-left: 42%;
+	margin-top: 10vh;
+	background:#000;
+}
+@media (max-width: 1400px) {
+.logo {
+	margin-top: -110px;
+	margin-left: 50px;
+}
+.home  {
+	margin-left: -90px;
+}
+.home a {
+	margin-top:-15px;
+}
+.motiv {
+	margin-left:450px;
+}
+.sport1 {
+	width: 400px;
+	margin-left:585px;
+	margin-top:90px;
+}
+.tape {
+ margin-top:-20px;
+}
+.foto {
+	margin-left: 40px;
+}
+.lessons {
+	margin-left: -150px;
+}
+.tape {
+	margin-left:-160px;
+}
+.tape1 {
+	margin-left:-40px;
+	width: 400px;
+	margin-top: -110px;
+}
+.description {
+	margin-left:-40px;
+}
+.dumbbells {
+	margin-left: -161px;
+}
+.dumbbells1 {
+	margin-left: -40px;
+	margin-top: -110px;
+}
+.worklist {
+	margin-left: -40px;
+}
+.speed {
+ 	margin-left: -160px;
+}
+.speed1 {
+	margin-left: -40px;
+	width: 600px;
+	margin-top: -110px;
+}
+.years {
+	margin-left: -40px;
+}
+.figure {
+	margin-left: -162px;
+}
+.achieve {
+	margin-left: -40px;
+	margin-top: -110px;
+}
+.figure1 {
+	margin-left: -40px;
+}
+.info {
+	margin-top: -230px;
+}
+.telo1 {
+	margin-top: -310px;
+}
+.info1 {
+	margin-top: -910px;
+}
+.achievements2 {
+	margin-top: -120px;
+}
+.telo2 {
+	margin-top: -345px;
+}
+.info2 {
+	margin-top: -220px;
+}
+.OurCoaches {
+	margin-left:100px;
+}
+}
